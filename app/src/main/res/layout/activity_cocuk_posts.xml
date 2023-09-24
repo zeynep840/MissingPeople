@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CocukPostsActivity"
+    android:background="@color/Orange">
+
+    <include
+        android:id="@+id/post1"
+        layout="@layout/app_bar_layout"></include>
+
+    <ImageButton
+        android:id="@+id/geri1"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="19dp"
+        android:background="@color/colorPrimary"
+        app:srcCompat="@drawable/ger" />
+
+    <ImageView
+        android:id="@+id/post_imageButton1"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        app:srcCompat="@drawable/addimage" />
+
+    <EditText
+        android:id="@+id/post_editText1"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_below="@+id/post_imageButton"
+        android:layout_alignEnd="@+id/post_imageButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="74dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/post_button2"
+        android:layout_width="101dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/buttonshape"
+        android:text="Gönder"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/geri1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="9dp"
+        android:text="Geri" />
+
+
+</RelativeLayout>

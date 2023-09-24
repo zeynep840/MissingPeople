@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetupActivity"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="198dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+
+            android:src="@drawable/boy" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/kullaniciadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="265dp"
+        android:ems="10"
+        android:hint="Kullanıcı Adı"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/adsoyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/kullaniciadi"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="184dp"
+        android:ems="10"
+        android:hint="  Ad-Soyad"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/ulke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/adsoyad"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="114dp"
+        android:ems="10"
+        android:hint="Şehir-İlçe"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:text="KAYDET"
+        android:background="@android:color/holo_red_dark"/>
+</RelativeLayout>

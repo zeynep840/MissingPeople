@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YetiskinClickPostActivity"
+    android:background="@color/Orange">
+
+    <ImageView
+        android:id="@+id/post_resmi2"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/addimage" />
+
+    <TextView
+        android:id="@+id/yorum_yapmak2"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="207dp"
+        android:background="@android:color/white"
+        android:text="Post Açıklaması" />
+
+    <Button
+        android:id="@+id/postkaydet2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="112dp"
+        android:background="@drawable/buttonshape"
+        android:text="Postu Güncelle" />
+
+    <Button
+        android:id="@+id/postsil2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/buttonshape"
+        android:text="Postu Sil" />
+
+</RelativeLayout>

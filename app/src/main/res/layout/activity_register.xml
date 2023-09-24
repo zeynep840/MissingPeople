@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/actionbarRegister"></include>
+
+    <TextView
+        android:id="@+id/textinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/actionbarRegister"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="@string/create_new_account"
+        android:textSize="20dp" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:src="@drawable/m"></ImageView>
+
+    <EditText
+        android:id="@+id/txtusername23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="310dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/txtusername24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="270dp"
+        android:ems="10"
+        android:hint="parola"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/parolaonay23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="230dp"
+        android:ems="10"
+        android:hint="parola onay"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:id="@+id/kullaniciadi232"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="190dp"
+        android:ems="10"
+        android:hint="Kullanıcı Adı"
+        android:inputType="textMultiLine" />
+    <Button
+        android:id="@+id/btnRegister23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="67dp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/create_account"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

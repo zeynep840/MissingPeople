@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.missingpeople">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/Missing"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".PhoneCallActivity" />
+        <activity android:name=".FaceVerficationActivity" />
+        <activity android:name=".YetiskinPostsActivity" />
+        <activity android:name=".YetiskinCommentActivity" />
+        <activity android:name=".YetiskinClickPostActivity" />
+        <activity android:name=".EsyaPostsActivity" />
+        <activity android:name=".EsyaCommentActivity" />
+        <activity android:name=".EsyaClickPostActivity" />
+        <activity android:name=".CocukCommentActivity" />
+        <activity android:name=".CocukPostsActivity" />
+        <activity android:name=".CocukClickPostActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".HayvanClickPostActivity" />
+        <activity android:name=".HayvanCommentActivity" />
+        <activity android:name=".HayvanPostsActivity" />
+        <activity android:name=".CocukActivity"
+            android:parentActivityName=".Home2Activity"/>
+        <activity android:name=".EsyaActivity"
+            android:parentActivityName=".Home2Activity"/>
+        <activity android:name=".YetiskinActivity"
+            android:parentActivityName=".Home2Activity"/>
+        <activity android:name=".HayvanActivity"
+            android:parentActivityName=".Home2Activity"/>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ResetPasswordActivity"
+            android:parentActivityName=".Home2Activity"/>
+        <activity android:name=".SetupActivity" />
+
+        <activity android:name=".LoginActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".RegisterActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity"></activity>
+
+
+        <activity android:name=".Home2Activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="Missing">Lost+Found</string>
+    <string name="app_name">Lost+Found</string>
+    <string name="create_new_account">YENİ HESAP OLUŞTUR</string>
+    <string name="i_have_account">HESABIM VAR</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="email">email</string>
+    <string name="password">Parola</string>
+    <string name="create_account">Hesap Oluştur</string>
+    <string name="login_with_your_account">Hesabınızla Giriş Yapınız</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gir">Giriş Yap</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="kayıt">Kayıt ol</string>
+    <string name="hesgir">Hesabınızla Giriş Yapınız</string>
+    <string name="animal">animal</string>
+    <string name="children">children</string>
+    <string name="title_activity_setup">SetupActivity</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="499dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/post_border"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/post_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:id="@+id/yenipost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yeni Post"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="17dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Tarih" />
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+                        android:text="Saat" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/post_IMAGE"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:layout_margin="3dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/descreption"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:padding="3dp"
+            android:text=" AD SOYAD/İLETİŞİM/KAYIP BİLGİLERİ"
+            android:textColor="@android:color/black"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/yorum1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/costum_button"
+            android:text="Yorum Yap"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="  Lütfen iletişim,adres ve kayıp bilgilerinize giriniz"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

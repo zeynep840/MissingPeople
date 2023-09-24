@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_Home"
+        android:title="Ana sayfa"
+        android:icon="@drawable/home"
+
+        ></item>
+    <item
+        android:id="@+id/Hayvan"
+        android:title="Hayvan"
+        android:icon="@drawable/pawprint"
+
+
+        ></item>
+    <item
+        android:id="@+id/yetiskin"
+        android:title="Yetişkin"
+        android:icon="@drawable/woman"
+
+        ></item>
+    <item
+        android:id="@+id/childiren"
+        android:title="Çocuk"
+        android:icon="@drawable/boy"
+
+        ></item>
+    <item
+        android:id="@+id/Esya"
+        android:title="Eşya"
+        android:icon="@drawable/box"
+
+        ></item>
+    <item
+        android:id="@+id/pairing"
+        android:title="Pairing"
+        android:icon="@drawable/face"
+
+        ></item>
+
+
+    <item
+        android:id="@+id/nav_Logout"
+        android:title="Çıkış yap"
+        android:icon="@drawable/logout"
+
+        ></item>
+
+
+</menu>

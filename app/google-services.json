@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "523062014464",
+    "project_id": "missingpeople-23ba8",
+    "storage_bucket": "missingpeople-23ba8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523062014464:android:48a64ef668da8f0cfedee5",
+        "android_client_info": {
+          "package_name": "com.example.missingpeople"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523062014464-th45t4lff784t21fftma5mhsjhs7sd9n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.missingpeople",
+            "certificate_hash": "8df772f2a66400766d3cd17105e1b7adccd0bae3"
+          }
+        },
+        {
+          "client_id": "523062014464-nkditme4k3ge77hd41a2gldrvvcrjj7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqOYGckInO4cNl5y3VqnEMVBpZ3dkCQa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523062014464-nkditme4k3ge77hd41a2gldrvvcrjj7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

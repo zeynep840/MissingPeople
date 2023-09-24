@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".HomeActivity"
+   >
+
+
+
+
+
+
+    <Button
+        android:id="@+id/missingTanima"
+        android:layout_width="144dp"
+        android:layout_height="124dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="158dp"
+        android:background="@color/Orange"
+        android:text="YÜZ TANIMA"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/Esya"
+        android:layout_width="144dp"
+        android:layout_height="124dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="233dp"
+        android:layout_marginBottom="302dp"
+        android:background="@color/Orange"
+        android:text="EŞYA KAYIP"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/AppBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp">
+
+
+        <include
+            android:id="@+id/actionBar"
+            layout="@layout/app_bar_layout"></include>
+
+
+        <ImageButton
+            android:id="@+id/add_new_post_button"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/AppBarLayout"
+            android:background="@color/colorPrimary"
+
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <Button
+
+
+        android:id="@+id/hayvan"
+        android:layout_width="144dp"
+        android:layout_height="124dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="448dp"
+        android:background="@color/Orange"
+        android:text="HAYVAN KAYIP"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/yetiskin"
+        android:layout_width="144dp"
+        android:layout_height="124dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginBottom="303dp"
+        android:background="@color/Orange"
+        android:text="YETİŞKİN KAYIP"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cocuk"
+        android:layout_width="144dp"
+        android:layout_height="124dp"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="449dp"
+        android:background="@color/Orange"
+        android:text="ÇOCUK KAYIP"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
